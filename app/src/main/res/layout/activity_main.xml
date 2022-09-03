@@ -27,6 +27,7 @@
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="12dp"
         android:backgroundTint="#F28705"
+        android:onClick="ventana_login_empleado"
         android:text="EMPLEADO"
         android:textAlignment="center"
         android:textSize="24sp"
