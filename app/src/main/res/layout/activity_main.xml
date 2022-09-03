@@ -44,6 +44,7 @@
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="56dp"
         android:backgroundTint="#038C8C"
+        android:onClick="ventana_login_empleador"
         android:text="EMPLEADOR"
         android:textAlignment="center"
         android:textSize="24sp"

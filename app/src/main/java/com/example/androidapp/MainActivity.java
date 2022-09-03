@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void ventana_login_empleador(View view) {
+        Intent i = new Intent(this, LoginEmpleador.class);
+        startActivity(i);
+
+    }
+
 }
