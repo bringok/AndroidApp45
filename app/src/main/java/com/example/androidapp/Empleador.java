@@ -12,4 +12,8 @@ public class Empleador extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_empleador);
     }
+
+    public void back(View v) {
+        finish();
+    }
 }

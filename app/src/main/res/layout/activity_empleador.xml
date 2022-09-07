@@ -4,13 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#038C8C"
     tools:context=".Empleador">
 
+    <Button
+        android:id="@+id/buttonBackMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="back"
+        android:text="BACK"
+        android:textColor="#111111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/labelEmailUsuario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="408dp"
+        android:text="juan.velasquez.lopez@pi.edu.co"
+        android:textColor="#111111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/labelNombre2"
+        app:layout_constraintTop_toBottomOf="@+id/labelNombre2" />
+
+    <TextView
+        android:id="@+id/labelNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Juan Felipe"
+        android:textColor="#111111"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/labelEmailUsuario2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/labelBienvenido2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BIENVENIDO!"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="165dp" />
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/labelNombre2"
+        app:layout_constraintEnd_toEndOf="@+id/labelNombre2"
+        app:layout_constraintStart_toStartOf="@+id/labelNombre2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="93dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/labelNombre2"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBackMain2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/captura" />
 </androidx.constraintlayout.widget.ConstraintLayout>
