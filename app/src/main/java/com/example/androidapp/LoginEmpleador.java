@@ -30,7 +30,7 @@ public class LoginEmpleador extends AppCompatActivity {
         String password = TextBoxPasswordEmpleador.getText().toString();
 
         if (email.equals("juan.velasquez.lopez@pi.edu.co") && password.equals("1234")) {
-            Intent i = new Intent(this, Empleado.class);
+            Intent i = new Intent(this, Empleador.class);
             startActivity(i);
         } else {
             errorEmpleador.setText("ERROR!, E-mail o Contrasena incorrectas");
